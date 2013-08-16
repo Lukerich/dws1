@@ -1,6 +1,7 @@
 html {
   font: 75% Verdana, sans-serif;
 }
+/*The color combinations below is my own (except the h1) and is a good example of how not to use color*/
 body
 {
 color:darkblue;
@@ -11,15 +12,17 @@ ol
 color:hsla(90,90%,90%,0.7);
 background-color:hsla(75,60%,120%,0.2);
 }
+/*This color combo is from Adobe Kuler in hex notation*/
 h1
 {
 color:#3A50B2;
 background-color:#FFCC33;
 }
+/*This color schema is in rgba notation*/
 p
 {
-color:rgba(255,255,255,0.75);
-background-color:rgba(100,130,99,0.5);
+color:rgba(0,0,50,0.75);
+background-color:rgba(159,244,212,0.2);
 }
 h2
 {
