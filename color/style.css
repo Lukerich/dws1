@@ -1,0 +1,32 @@
+html {
+  font: 75% Verdana, sans-serif;
+}
+body
+{
+color:darkblue;
+background-color:lightgray;
+}
+ol
+{
+color:hsla(90,90%,90%,0.7);
+background-color:hsla(75,60%,120%,0.5);
+h1
+{
+color:#aa8844;
+background-color:#00ff00;
+}
+p
+{
+color:rgba(255,255,255,0.75);
+background-color:rgba(100,130,99,0.5);
+}
+h2
+{
+color:hsl(0,75%,75%);
+background-color:hsl(120,65%,75%);
+}
+ul
+{
+color:rgb(127,199,127);
+background-color:rgb(100,90,197);
+} 
