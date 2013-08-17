@@ -29,10 +29,13 @@ ol {
 	list-style-type: none;
 	text-align: center;
 	border: 1px solid #000;
-	padding: 15px;
+	padding: 5px;
 	margin: 3px auto;
+	text-transform:capitalize;
 	}
-	li.a {display:inline;}
+ol>li {
+	display:inline;
+	}
 /*This color combo is from Adobe Kuler in hex notation*/
 h1 {
 	text-shadow: 6px 2px #fff;
