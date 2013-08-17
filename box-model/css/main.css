@@ -8,7 +8,9 @@ body {
 	width: 825px;
 	color:darkblue;
 	background-color:lightgray;
-	border: .5em solid #fff;
+	border: .2em solid #fff;
+	border-radius: 2em;
+	box-shadow: 10px 10px 5px #888888;
 	 }
 a:link {
 	color:darkorange;
@@ -46,6 +48,7 @@ h1 {
 	margin: 10px auto;
 	text-align: center;
 	border: 5px solid;
+	border-radius: 1em;
 	}
 /*This color schema is in rgba notation*/
 p {
@@ -68,6 +71,7 @@ h2 {
 	padding: 5px;
 	text-align: center;
 	border: 2px solid;
+	border-radius: 1em;
    }
 ul {
 	text-transform:lowercase;
