@@ -1,9 +1,18 @@
 html {
-	font-family: 62.5% Arial, Verdana, sans-serif;
+	font-family: 100% Arial, Verdana, sans-serif;
+	 }
+
+/*The color combinations below is my own (except the h1) and is a good example of how not to use color*/
+body {
+	margin: 0 auto;
+	width: 825px;
+	color:darkblue;
+	background-color:lightgray;
+	border: .5em solid #fff;
 	 }
 a:link {
 	color:darkorange;
-	   }
+	 }
 a:visited {
 	color:green;
 		  }
@@ -13,14 +22,6 @@ a:hover {
 a:active {
 	color:yellow;
 		 }
-/*The color combinations below is my own (except the h1) and is a good example of how not to use color*/
-body {
-	margin: 0 auto;
-	width: 825px;
-	color:darkblue;
-	background-color:lightgray;
-	border: .5em solid #fff;
-	 }
 ol {
 	color:hsla(60,50%,50%,1);
 	background-color:hsla(120,50%,50%,0.2);
@@ -29,8 +30,9 @@ ol {
 	text-align: center;
 	border: 1px solid #000;
 	padding: 15px;
-	margin: 0 auto;
+	margin: 3px auto;
 	}
+	li.a {display:inline;}
 /*This color combo is from Adobe Kuler in hex notation*/
 h1 {
 	text-shadow: 6px 2px #fff;
@@ -48,19 +50,24 @@ p {
 	font: normal normal 400 11pt/1.25 'Rosario', sans-serif;
 	color:rgba(0,0,50,0.75);
 	background-color:rgba(255,160,122,0.2);
-	width: 680px;
+	width: 720px;
 	text-align: center;
 	margin: 20px auto;
   }
 h2 {
-	text-shadow: 2px 2px #f0;
-	text-transform:lowercase;
+	text-shadow: 2px 2px #FFF;
 	text-align: center;
+	text-transform:Capitalize;
 	font: normal normal 700 22pt/1 'Cabin Condensed', sans-serif;
-	color:hsl(20,75%,75%);
+	color:hsl(80,75%,75%);
 	background-color:hsl(250,65%,75%);
+	margin: 5px auto;
+	padding: 5px;
+	text-align: center;
+	border: 2px solid;
    }
 ul {
+	text-transform:lowercase;
 	color:rgb(127,199,127);
 	background-color:rgb(100,90,197);
 	list-style-type: square;
