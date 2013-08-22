@@ -5,7 +5,7 @@ html {
 /*The color combinations below is my own (except the h1) and is a good example of how not to use color*/
 body {
 	margin: 0 auto;
-	width: 900px;
+	width: 98%;
 	color:darkblue;
 	background-color:lightgray;
 	border: .2em solid #fff;
@@ -25,12 +25,11 @@ a:active {
 	color:yellow;
 		 }			 
 ol {
-	width: 625px;
+	width: 69%;
 	list-style-type: none;
 	text-align: center;
 	border: 1px solid #000;
-	padding: 5px;
-	margin: 3px auto;
+	margin: .3% auto;
 	text-transform:capitalize;
 	}
 ol>li {
@@ -38,8 +37,9 @@ ol>li {
 	}
 #part1, #part2, #part3{
 	float:left;
-	width: 270px;
-	margin: 10px;
+	width: 30%;
+	margin-left: 1.1%;
+	margin-bottom: 5px;
 	padding: 5px;
 	}
 .clearfix	{
@@ -49,7 +49,6 @@ ol>li {
 h1 {
 	text-shadow: 6px 2px #fff;
 	font-family: 'Happy Monkey', cursive;
-	letter-spacing: 2px;
 	color:#3A50B2;
 	background-color:#FC3;
 	margin: 5px auto;
@@ -59,12 +58,12 @@ h1 {
 	}
 /*This color schema is in rgba notation*/
 p {
-	text-indent:5px;
+	text-indent: .5%;
 	font: normal normal 400 16px/1.25 'Rosario', sans-serif;
 	color:rgba(0,0,50,0.75);
 	background-color:rgba(255,160,122,0.2);
 	text-align: left;
-	margin: 5px auto;
+	margin: .5% auto;
   }
 h2 {
 	text-shadow: 2px 2px #FFF;
@@ -78,7 +77,8 @@ h2 {
 	border-radius: 1em;
    }		   
 ul {
-	width: 625px;
+	clear: both;
+	width: 69%;
 	text-transform:lowercase;
 	color:rgb(127,199,127);
 	background-color:rgb(100,90,197);
