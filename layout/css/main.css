@@ -6,7 +6,6 @@ html {
 body {
 	margin: 0 auto;
 	width: 98%;
-	color:darkblue;
 	background-color:lightgray;
 	border: .2em solid #fff;
 	border-radius: 2em;
@@ -27,6 +26,7 @@ a:active {
 ol {
 	width: 69%;
 	list-style-type: none;
+	background-color:brown;
 	text-align: center;
 	border: 1px solid #000;
 	margin: .3% auto;
@@ -59,7 +59,7 @@ h1 {
 /*This color schema is in rgba notation*/
 p {
 	text-indent: .5%;
-	font: normal normal 400 16px/1.25 'Rosario', sans-serif;
+	font: normal normal 400 1em/1.25 'Rosario', sans-serif;
 	color:rgba(0,0,50,0.75);
 	background-color:rgba(255,160,122,0.2);
 	text-align: left;
@@ -69,7 +69,7 @@ h2 {
 	text-shadow: 2px 2px #FFF;
 	text-align: center;
 	text-transform:Capitalize;
-	font: normal normal 700 26px/1 'Cabin Condensed', sans-serif;
+	font: normal normal 700 1.625em/1 'Cabin Condensed', sans-serif;
 	color:hsl(80,75%,75%);
 	background-color:hsl(250,65%,75%);
 	margin: 5px auto;
