@@ -5,12 +5,12 @@ html {
 /*The color combinations below is my own (except the h1) and is a good example of how not to use color*/
 body {
 	margin: 0 auto;
-	width: 825px;
+	width: 900px;
 	color:darkblue;
 	background-color:lightgray;
 	border: .2em solid #fff;
 	border-radius: 2em;
-	box-shadow: 10px 10px 5px #888888;
+	box-shadow: 5px 5px 5px #888888;
 	 }
 a:link {
 	color:blue;
@@ -23,7 +23,7 @@ a:hover {
 		}
 a:active {
 	color:yellow;
-		 }
+		 }			 
 ol {
 	width: 625px;
 	list-style-type: none;
@@ -36,6 +36,15 @@ ol {
 ol>li {
 	display:inline;
 	}
+#part1, #part2, #part3{
+	float:left;
+	width: 270px;
+	margin: 10px;
+	padding: 5px;
+	}
+.clearfix	{
+	overflow: auto;
+	}   	
 /*This color combo is from Adobe Kuler in hex notation*/
 h1 {
 	text-shadow: 6px 2px #fff;
@@ -43,40 +52,38 @@ h1 {
 	letter-spacing: 2px;
 	color:#3A50B2;
 	background-color:#FC3;
-	margin: 10px auto;
+	margin: 5px auto;
 	text-align: center;
 	border: 5px solid;
 	border-radius: 1em;
 	}
 /*This color schema is in rgba notation*/
 p {
-	text-indent:50px;
-	font: normal normal 400 11pt/1.25 'Rosario', sans-serif;
+	text-indent:5px;
+	font: normal normal 400 16px/1.25 'Rosario', sans-serif;
 	color:rgba(0,0,50,0.75);
 	background-color:rgba(255,160,122,0.2);
-	width: 720px;
-	text-align: center;
-	margin: 20px auto;
+	text-align: left;
+	margin: 5px auto;
   }
 h2 {
 	text-shadow: 2px 2px #FFF;
 	text-align: center;
 	text-transform:Capitalize;
-	font: normal normal 700 22pt/1 'Cabin Condensed', sans-serif;
+	font: normal normal 700 26px/1 'Cabin Condensed', sans-serif;
 	color:hsl(80,75%,75%);
 	background-color:hsl(250,65%,75%);
 	margin: 5px auto;
-	padding: 5px;
-	text-align: center;
 	border: 2px solid;
 	border-radius: 1em;
-   }
+   }		   
 ul {
+	width: 625px;
 	text-transform:lowercase;
 	color:rgb(127,199,127);
 	background-color:rgb(100,90,197);
 	list-style-type: square;
 	border: 1px solid #000;
-	padding: 15px;
+	padding: 5px;
 	margin: 0 auto;
    } 
