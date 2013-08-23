@@ -1,12 +1,17 @@
 html {
 	font-family: Arial, Verdana, sans-serif;
+	background: #fff url(images/pattern_156.gif) no-repeat center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+ 	 background-size: cover;
 	 }
 
 /*The color combinations below is my own (except the h1) and is a good example of how not to use color*/
 body {
 	margin: 0 auto;
 	width: 98%;
-	background-color:lightgray;
+	background:lightgray url(images/pattern_153.gif) no-repeat center center;
 	border: .2em solid #fff;
 	border-radius: 2em;
 	box-shadow: 5px 5px 5px #888888;
@@ -50,7 +55,7 @@ h1 {
 	text-shadow: 6px 2px #fff;
 	font-family: 'Happy Monkey', cursive;
 	color:#3A50B2;
-	background-color:#FC3;
+	background:#AC3 url("images/dark-canvas.gif") no-repeat center center;
 	margin: 5px auto;
 	text-align: center;
 	border: 5px solid;
@@ -61,7 +66,7 @@ p {
 	text-indent: .5%;
 	font: normal normal 400 1em/1.25 'Rosario', sans-serif;
 	color:rgba(0,0,50,0.75);
-	background-color:rgba(255,160,122,0.2);
+	background: linear-gradient(to bottom, rgba(254,255,255,1) 0%,rgba(210,235,249,1) 100%);
 	text-align: left;
 	margin: .5% auto;
   }
