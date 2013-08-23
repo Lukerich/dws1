@@ -66,6 +66,7 @@ ol>li {
 article{
 	float:left;
 	width: 30%;
+	min-width: 300px;
 	height: 800px;
 	margin-left: 1.1%;
 	margin-bottom: 5px;
