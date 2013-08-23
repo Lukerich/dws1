@@ -66,9 +66,11 @@ ol>li {
 article{
 	float:left;
 	width: 30%;
+	height: 800px;
 	margin-left: 1.1%;
 	margin-bottom: 5px;
 	padding: 5px;
+	overflow: scroll;
 	} 
 #content.clearfix	{
 	overflow: auto;
