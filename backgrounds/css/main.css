@@ -1,17 +1,13 @@
 html {
 	font-family: Arial, Verdana, sans-serif;
-	background: #fff url(images/pattern_156.gif) no-repeat center center;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
- 	 background-size: cover;
+	background: #fff url(../images/pattern_156.gif) repeat center center;
 	 }
 
 /*The color combinations below is my own (except the h1) and is a good example of how not to use color*/
 body {
 	margin: 0 auto;
 	width: 98%;
-	background:lightgray url(images/pattern_153.gif) no-repeat center center;
+	background:lightgray url(../images/pattern_153.gif) repeat center center;
 	border: .2em solid #fff;
 	border-radius: 2em;
 	box-shadow: 5px 5px 5px #888888;
@@ -55,7 +51,7 @@ h1 {
 	text-shadow: 6px 2px #fff;
 	font-family: 'Happy Monkey', cursive;
 	color:#3A50B2;
-	background:#AC3 url("images/dark-canvas.gif") no-repeat center center;
+	background:#AC3 url(../images/dark-canvas.gif) repeat center center;
 	margin: 5px auto;
 	text-align: center;
 	border: 5px solid;
@@ -76,7 +72,8 @@ h2 {
 	text-transform:Capitalize;
 	font: normal normal 700 1.625em/1 'Cabin Condensed', sans-serif;
 	color:hsl(80,75%,75%);
-	background-color:hsl(250,65%,75%);
+	background:hsl(250,65%,75%) url(../images/koala.png) no-repeat fixed left;
+	padding: 5px 0px 0px 25px;
 	margin: 5px auto;
 	border: 2px solid;
 	border-radius: 1em;
