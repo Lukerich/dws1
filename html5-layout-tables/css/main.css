@@ -38,7 +38,7 @@ ol {
 ol>li {
 	display:inline;
 	}
-#part1, #part2, #part3{
+article{
 	float:left;
 	width: 30%;
 	margin-left: 1.1%;
@@ -84,7 +84,7 @@ h2 {
 	border: 2px solid;
 	border-radius: 1em;
    }		   
-ul {
+aside {
 	clear: both;
 	width: 69%;
 	text-transform:lowercase;
