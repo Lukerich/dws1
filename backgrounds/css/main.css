@@ -70,10 +70,14 @@ h2 {
 	text-shadow: 2px 2px #FFF;
 	text-align: center;
 	text-transform:Capitalize;
-	font: normal normal 700 1.625em/1 'Cabin Condensed', sans-serif;
+	font: normal normal 700 1.6em/1 'Cabin Condensed', sans-serif;
 	color:hsl(80,75%,75%);
-	background:hsl(250,65%,75%) url(../images/koala.png) no-repeat fixed left;
-	padding: 5px 0px 0px 25px;
+	display: inline-block;
+	background:hsl(250,65%,75%) url(../images/koala.png) no-repeat left;
+	background-size: 35px auto;
+	height: 40px;
+	width: 100%;
+	padding: 5px auto;
 	margin: 5px auto;
 	border: 2px solid;
 	border-radius: 1em;
