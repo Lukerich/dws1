@@ -125,7 +125,7 @@ aside {
 	margin: 20px auto;
    }
 input {
-	width: 120px;
+	width: 200px;
 	border: 1px solid #d6d6d6;
 	padding: 2px;
 	}
@@ -134,12 +134,12 @@ input:focus, input:hover {
 	background-color:#d0e2f0;
 	}
 #submit {
-	width: 310px;
+	width: 200px;
 	text-align: right;
 	border: 1px solid #063;
 	background-color:#096;
 	color:fff;
-	padding: 5px;
+	padding: 2px;
 	margin: 10px auto;
 	}
 #submit:#hover {
@@ -147,10 +147,15 @@ input:focus, input:hover {
 	cursor: pointer;
 	}
 fieldset {
-	width: 310px;
+	width: 280px;
 	margin: 20 auto;
 	border: 1px solid #abc;
 	}
+textarea {
+	width: 280px;
+	margin: 20 auto;
+	border: 1px solid #abc;
+	}	
 legend {
 	font-style: italic;
 	color: #666;
