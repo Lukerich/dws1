@@ -67,17 +67,15 @@ ol {
 ol>li {
 	display:inline;
 	}
-article{
+#content article {
 	float:left;
 	width: 30%;
+	height: 600px;
 	margin-left: 1.1%;
 	margin-bottom: 5px;
 	padding: 5px;
 	overflow: scroll;
 	} 
-#content {
-	height: 600px;
-	}
 #content.clearfix	{
 	overflow: auto;
 	}     		   	
@@ -126,8 +124,13 @@ aside {
 	padding: 5px;
 	margin: 20px auto;
    }
-#contact_content {
+#contact_content article {
+	float:left;
+	width: 30%;
 	height: 340px;
+	margin-left: 1.1%;
+	margin-bottom: 5px;
+	padding: 5px;
 	}   
 input {
 	width: 200px;
