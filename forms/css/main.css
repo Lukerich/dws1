@@ -70,12 +70,14 @@ ol>li {
 article{
 	float:left;
 	width: 30%;
-	height: 500px;
 	margin-left: 1.1%;
 	margin-bottom: 5px;
 	padding: 5px;
 	overflow: scroll;
 	} 
+#content {
+	height: 600px;
+	}
 #content.clearfix	{
 	overflow: auto;
 	}     		   	
@@ -124,6 +126,9 @@ aside {
 	padding: 5px;
 	margin: 20px auto;
    }
+#contact_content {
+	height: 340px;
+	}   
 input {
 	width: 200px;
 	border: 1px solid #d6d6d6;
@@ -152,10 +157,12 @@ fieldset {
 	border: 1px solid #abc;
 	}
 textarea {
+	background-color: #C7F0FF;
 	width: 280px;
 	height: 180px;
 	margin: 20 auto;
 	border: 1px solid #abc;
+	font: font: normal normal 10px/150% Arial, Helvetica, sans-serif;
 	}	
 legend {
 	font-style: italic;
