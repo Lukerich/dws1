@@ -153,6 +153,7 @@ fieldset {
 	}
 textarea {
 	width: 280px;
+	height: 180px;
 	margin: 20 auto;
 	border: 1px solid #abc;
 	}	
