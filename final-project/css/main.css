@@ -54,7 +54,19 @@ a:hover {
 		}
 a:active {
 	color:yellow;
-		 }			 
+		 }	
+figure { 
+	float: left; 
+	width: 220px; 
+	height: 280px;
+	padding: 5px; 
+	margin: 40px auto; 
+	border: 1px solid #eeeeee;
+	}
+figcaption { 
+	font-size: 90%; 
+	text-align: left;
+	}	 	 		 
 ol {
 	width: 69%;
 	list-style-type: none;
