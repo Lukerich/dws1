@@ -1,0 +1,179 @@
+html {
+	font-family: Arial, Verdana, sans-serif;
+	background: #fff url(../images/pattern_156.gif) repeat center center;
+	 }
+/*credit for image and patterns - 
+http://www.dinpattern.com/2013/04/25/dark-canvas/
+http://www.dinpattern.com/2011/07/07/light-tile/
+http://en.wikipedia.org/wiki/File:Stcloudlogo.png*/
+/*The color combinations below are my own and is a good example of how not to use color*/
+body {
+	margin: 0 auto;
+	width: 98%;
+	min-width: 600px;
+	background:lightgray url(../images/light-tile.gif) repeat center center;
+	border: .2em solid #fff;
+	border-radius: 2em;
+	box-shadow: 5px 5px 5px #888888;
+	 }
+table { 
+	width: 90%;
+	overflow: auto;
+	margin: 0 auto;
+	}
+th, td { 
+	padding: 7px 10px 10px 10px;
+	}
+th { 
+	text-transform: uppercase; 
+	letter-spacing: 0.1em; 
+	font-size: 90%; 
+	border-bottom: 2px solid #111111;  
+	text-align: left;
+	}
+td 	{
+	letter-spacing: 0.1em; 
+	font-size: 90%; 
+	border-bottom: 2px solid #111111; 
+	text-align: left;
+	}	
+td.even { 
+	background-color: #efefef;
+	}
+tr:hover { 
+	background-color: #c3e6e5;
+	}
+a:link {
+	color:blue;
+	 }
+a:visited {
+	color:green;
+		  }
+a:hover {
+	color:red;
+		}
+a:active {
+	color:yellow;
+		 }			 
+ol {
+	width: 69%;
+	list-style-type: none;
+	background-color: #4CD5FF;
+	text-align: center;
+	border: 1px solid #000;
+	margin: .3% auto;
+	text-transform:capitalize;
+	}
+ol>li {
+	display:inline;
+	}
+#content article {
+	float:left;
+	width: 30%;
+	height: 600px;
+	margin-left: 1.1%;
+	margin-bottom: 5px;
+	padding: 5px;
+	overflow: scroll;
+	} 
+#content.clearfix	{
+	overflow: auto;
+	}     		   	
+/*This color combo is from Adobe Kuler in hex notation*/
+h1 {
+	text-shadow: 6px 2px #E9C7FF;
+	font-family: 'Happy Monkey', cursive;
+	color:#3A50B2;
+	background:#AC3 url(../images/dark-canvas.gif) repeat center center;
+	margin: 5px auto;
+	text-align: center;
+	border: 5px solid;
+	border-radius: 1em;
+	}
+/*This color schema is in rgba notation*/
+p {
+	text-indent: .5%;
+	font: normal normal 400 1em/1.25 'Rosario', sans-serif;
+	color:rgba(0,0,50,0.75);
+	background: linear-gradient(to bottom, rgba(254,255,255,1) 0%,rgba(210,235,249,1) 100%);
+	text-align: left;
+	margin: .5% auto;
+  }
+h2 {
+	text-shadow: 2px 2px #FFF;
+	text-align: center;
+	text-transform:Capitalize;
+	font: normal normal 700 1.6em/1 'Cabin Condensed', sans-serif;
+	color:hsl(80,75%,35%);
+	display: inline-block;
+	background:hsl(250,10s%,75%) url(../images/100px-Stcloudlogo.png) no-repeat left;
+	background-size: 35px auto;
+	height: 40px;
+	width: 100%;
+	border: 2px solid;
+	border-radius: 1em;
+   }
+aside {
+	clear: both;
+	width: 69%;
+	text-transform:lowercase;
+	color:rgb(0,122,127);
+	background-color:rgb(135,255,219);
+	list-style-type: square;
+	border: 1px solid #000;
+	padding: 5px;
+	margin: 20px auto;
+   }
+#contact_content article {
+	float:left;
+	width: 30%;
+	height: 340px;
+	margin-left: 1.1%;
+	margin-bottom: 5px;
+	padding: 5px;
+	}   
+input {
+	width: 200px;
+	border: 1px solid #d6d6d6;
+	padding: 2px;
+	}
+input:focus, input:hover {
+	border: 1px solid #999;
+	background-color:#d0e2f0;
+	}
+#submit {
+	width: 200px;
+	text-align: right;
+	border: 1px solid #063;
+	background-color:#096;
+	color:fff;
+	padding: 2px;
+	margin: 10px auto;
+	}
+#submit:#hover {
+	color: #0C3;
+	cursor: pointer;
+	}
+fieldset {
+	width: 280px;
+	margin: 20 auto;
+	border: 1px solid #abc;
+	}
+textarea {
+	background-color: #C7F0FF;
+	width: 280px;
+	height: 180px;
+	margin: 20 auto;
+	border: 1px solid #abc;
+	font: font: normal normal 10px/150% Arial, Helvetica, sans-serif;
+	}	
+legend {
+	font-style: italic;
+	color: #666;
+	}
+#title {
+	float: left;
+	width: 150px;
+	clear: left;
+	}
+		   
