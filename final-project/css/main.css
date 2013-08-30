@@ -183,26 +183,26 @@ input:focus, input:hover {
 	text-align: right;
 	border: 1px solid #063;
 	background-color:#096;
-	color:fff;
+	color: #fff;
 	padding: 2px;
 	margin: 10px auto;
 	}
-#submit:#hover {
+#submit:hover {
 	color: #0C3;
 	cursor: pointer;
 	}
 fieldset {
 	width: 280px;
-	margin: 20 auto;
+	margin: 20px auto;
 	border: 1px solid #abc;
 	}
 textarea {
 	background-color: #C7F0FF;
 	width: 280px;
 	height: 180px;
-	margin: 20 auto;
+	margin: 20px auto;
 	border: 1px solid #abc;
-	font: font: normal normal 10px/150% Arial, Helvetica, sans-serif;
+	font: normal normal 10px/150% Arial, Helvetica, sans-serif;
 	}	
 legend {
 	font-style: italic;
